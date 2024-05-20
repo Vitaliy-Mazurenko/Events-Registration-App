@@ -1,0 +1,32 @@
+.item {
+  border: 1px solid grey;
+  padding: 0 5px;
+  margin: 5px;
+  max-width: 180px;
+  min-width: 175px;
+  min-height: 115px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.group > p{
+  font-size: x-small;
+  min-height: 30px;
+}
+
+.group > div {
+  display: flex;
+  justify-content: space-between;
+}
+.group > div > span{
+  padding: 2px;
+  cursor: pointer;
+  color: dodgerblue;
+}
+
+
+

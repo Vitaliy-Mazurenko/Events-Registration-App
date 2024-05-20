@@ -1,0 +1,53 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  color: dodgerblue;
+};
+
+.PaginationUl {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 7px;
+  margin-right: 3.5%;
+};
+
+.PaginationLi {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  };
+
+li > a{
+  color: dodgerblue;
+};
+
+.PaginationLink {
+  text-align: center;
+  padding: 9px 9px;
+  display: inline-block;
+  height: 31px;
+  width: 31px;
+  cursor: pointer;
+};
+
+li .PrevPage {
+  color: dodgerblue;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  padding: 8px 4px;
+};
+
+.NextPage {
+  color: dodgerblue;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  padding: 8px 4px;
+};

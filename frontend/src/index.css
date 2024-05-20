@@ -15,8 +15,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: dodgerblue;
+  text-decoration: none !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  user-select: none; 
+  cursor: pointer;
 }
 a:hover {
   color: #535bf2;
@@ -24,10 +28,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -65,4 +66,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+h3 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  font-weight: normal;
+}
+
+h5 {
+  font-weight: normal;
+  margin-block-start: 0.2em;
+  margin-block-end: 0em;
+}
+
+p {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
 }
