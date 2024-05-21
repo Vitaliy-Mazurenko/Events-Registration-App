@@ -31,7 +31,7 @@ export default function Home({
 		return (
 			<>
 			<h3 className='home-title'>Events</h3>
-			<ul>
+			<ul className='home-events'>
 			{(!!currentEvents && typeof currentEvents[0] !== 'undefined') && currentEvents.map((item) =>
 				<Event item={item} key={item.id} />
 			)}

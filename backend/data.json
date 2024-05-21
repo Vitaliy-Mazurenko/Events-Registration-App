@@ -3,589 +3,890 @@
 		"id": "1",
 		"title": "JavaScript Workshop",
 		"description": "Advanced concepts for modern web development",
-		"event_date": "7.3.2024",
-		"organizer": "org-1"
+		"event_date": "1.2.2024",
+		"organizer": "org-1",
+		"participants": [
+			{
+				"name": "Jacob Jones",
+				"email": "JacobJones@uk.net",
+				"dateOfBirth": "2000",
+				"whereHeard": "social media"
+			},
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "2001",
+				"whereHeard": "found myself"
+			},
+			{
+				"name": "Courtney Robertson",
+				"email": "CourtneyRobertson@posteo.us",
+				"dateOfBirth": "1991",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "2",
 		"title": "Coding Challenge",
 		"description": "Test your skills with fun programming tasks",
 		"event_date":  "5.2.2024",
-		"organizer": "org-2"
+		"organizer": "org-2",
+		"participants": [
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "3",
 		"title": "Tech Talk",
 		"description": "Introduction to Python Programming",
 		"event_date": "6.2.2024",
-		"organizer": "org-3"
+		"organizer": "org-3",
+		"participants": [
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "1998",
+				"whereHeard": "found myself"
+			}
+		]
 	},
 	{
 		"id": "4",
 		"title": "Web Dev Bootcamp",
 		"description": "Learn HTML, CSS, and JavaScript basics",
 		"event_date": "7.2.2024",
-		"organizer": "org-4"
+		"organizer": "org-4",
+		"participants": [
+			{
+				"name": "Kathryn Murphy",
+				"email": "KathrynMurphy@uk.net",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "5",
 		"title": "Agile Development Seminar",
 		"description": "Best practices for software teams",
 		"event_date": "8.2.2024",
-		"organizer": "org-5"
+		"organizer": "org-5",
+		"participants": [
+			{
+				"name": "Dianne Russell",
+				"email": "DianneRussell@uk.net",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "6",
 		"title": "DevOps Conference",
 		"description": "CI/CD pipelines and containerization",
 		"event_date": "9.2.2024",
-		"organizer": "org-6"
+		"organizer": "org-6",
+		"participants": [
+			{
+				"name": "Cody Fisher",
+				"email": "CodyFisher@posteo.com",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "7",
 		"title": "Data Science Symposium",
 		"description": "Explore the latest trends in data analysis",
 		"event_date": "10.2.2024",
-		"organizer": "org-7"
+		"organizer": "org-7",
+		"participants": [
+			{
+				"name": "Esther Howard",
+				"email": "EstherHoward@posteo.us",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "8",
 		"title": "Cloud Computing Workshop",
 		"description": "Deploying apps on AWS, GCP, and Azure",
 		"event_date": "12.2.2024",
-		"organizer": "org-8"
+		"organizer": "org-8",
+		"participants": [
+			{
+				"name": "Robert Fox",
+				"email": "RobertFoxd@posteo.us",
+				"dateOfBirth": "2000",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "9",
 		"title": "Mobile App Development",
 		"description": "iOS and Android development",
 		"event_date": "13.2.2024",
-		"organizer": "org-9"
+		"organizer": "org-9",
+		"participants": [
+			{
+				"name": "Kathryn Murphy",
+				"email": "KathrynMurphy@posteo.us",
+				"dateOfBirth": "1990",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "10",
 		"title": "Cybersecurity Awareness",
 		"description": "Protecting web applications from threats",
 		"event_date": "14.2.2024",
-		"organizer": "org-10"
+		"organizer": "org-10",
+		"participants": [
+			{
+				"name": "Kathryn Murphy",
+				"email": "KathrynMurphy@posteo.us",
+				"dateOfBirth": "1990",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "11",
 		"title": "UX Design Sprint",
 		"description": "Creating user-friendly interfaces",
 		"event_date": "15.2.2024",
-		"organizer": "org-11"
+		"organizer": "org-11",
+		"participants": [
+			{
+				"name": "Darlene Robertson",
+				"email": "DarleneRobertsony@posteo.us",
+				"dateOfBirth": "1997",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "12",
 		"title": "Database Management",
 		"description": "SQL and NoSQL databases",
 		"event_date": "16.2.2024",
-		"organizer": "org-12"
+		"organizer": "org-12",
+		"participants": [
+			{
+				"name": "Courtney Robertson",
+				"email": "CourtneyRobertson@posteo.us",
+				"dateOfBirth": "1991",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "13",
 		"title": "API Development Workshop",
 		"description": "Building RESTful APIs",
 		"event_date": "7.3.2024",
-		"organizer": "org-13"
+		"organizer": "org-13",
+		"participants": []
 	},
 	{
 		"id": "14",
 		"title": "Full-Stack Development",
 		"description": "Learn frontend and backend technologies",
 		"event_date":  "5.2.2024",
-		"organizer": "org-14"
+		"organizer": "org-14",
+		"participants": []
 	},
 	{
 		"id": "15",
 		"title": "Machine Learning Meetup",
 		"description": "Applying ML algorithms to web apps",
 		"event_date": "7.2.2024",
-		"organizer": "org-15"
+		"organizer": "org-15",
+		"participants": []
 	},
 	{
 		"id": "16",
 		"title": "Game Development",
 		"description": "Creating interactive web games",
 		"event_date": "8.2.2024",
-		"organizer": "org-16"
+		"organizer": "org-16",
+		"participants": []
 	},
 	{
 		"id": "17",
 		"title": "Blockchain Symposium",
 		"description": "Exploring blockchain technology in web apps",
 		"event_date": "9.2.2024",
-		"organizer": "org-17"
+		"organizer": "org-17",
+		"participants": []
 	},
 	{
 		"id": "18",
 		"title": "Web Accessibility Workshop",
 		"description": "Designing inclusive web experiences",
 		"event_date": "10.2.2024",
-		"organizer": "org-18"
+		"organizer": "org-18",
+		"participants": []
 	},
 	{
 		"id": "19",
 		"title": "Microservices Architecture",
 		"description": "Building scalable web applications",
 		"event_date": "11.2.2024",
-		"organizer": "org-19"
+		"organizer": "org-19",
+		"participants": []
 	},
 	{
 		"id": "20",
 		"title": "Progressive Web Apps",
 		"description": "Developing high-performance PWAs",
 		"event_date": "12.2.2024",
-		"organizer": "org-20"
+		"organizer": "org-20",
+		"participants": []
 	},
 	{
 		"id": "21",
 		"title": "Software Testing Conference",
 		"description": "Strategies for effective testing",
 		"event_date": "13.2.2024",
-		"organizer": "org-21"
+		"organizer": "org-21",
+		"participants": []
 	},
 	{
 		"id": "22",
 		"title": "DevSecOps Workshop",
 		"description": "Integrating security practices into DevOps",
 		"event_date": "14.2.2024",
-		"organizer": "org-22"
+		"organizer": "org-22",
+		"participants": []
 	},
 	{
 		"id": "23",
 		"title": "Performance Optimization",
 		"description": "Speed up web applications",
 		"event_date": "15.2.2024",
-		"organizer": "org-23"
+		"organizer": "org-23",
+		"participants": []
 	},
 	{
 		"id": "24",
 		"title": "GraphQL Workshop",
 		"description": "Building APIs with GraphQL",
 		"event_date": "16.2.2024",
-		"organizer": "org-24"
+		"organizer": "org-24",
+		"participants": []
 	},
 	{
 		"id": "25",
 		"title": "JavaScript Workshop",
 		"description": "Advanced concepts for modern web development",
 		"event_date": "7.3.2024",
-		"organizer": "org-25"
+		"organizer": "org-25",
+		"participants": []
 	},
 	{
 		"id": "26",
 		"title": "Coding Challenge",
 		"description": "Test your skills with fun programming tasks",
 		"event_date":  "5.2.2024",
-		"organizer": "org-26"
+		"organizer": "org-26",
+		"participants": []
 	},
 	{
 		"id": "27",
 		"title": "Tech Talk",
 		"description": "Introduction to Python Programming",
 		"event_date": "7.2.2024",
-		"organizer": "org-27"
+		"organizer": "org-27",
+		"participants": []
 	},
 	{
 		"id": "28",
 		"title": "Web Dev Bootcamp",
 		"description": "Learn HTML, CSS, and JavaScript basics",
 		"event_date": "8.2.2024",
-		"organizer": "org-28"
+		"organizer": "org-28",
+		"participants": []
 	},
 	{
 		"id": "29",
 		"title": "Agile Development Seminar",
 		"description": "Best practices for software teams",
 		"event_date": "9.2.2024",
-		"organizer": "org-29"
+		"organizer": "org-29",
+		"participants": []
 	},
 	{
 		"id": "30",
 		"title": "DevOps Conference",
 		"description": "CI/CD pipelines and containerization",
 		"event_date": "10.2.2024",
-		"organizer": "org-30"
+		"organizer": "org-30",
+		"participants": []
 	},
 	{
 		"id": "31",
 		"title": "Data Science Symposium",
 		"description": "Explore the latest trends in data analysis",
 		"event_date": "11.2.2024",
-		"organizer": "org-31"
+		"organizer": "org-31",
+		"participants": []
 	},
 	{
 		"id": "32",
 		"title": "Cloud Computing Workshop",
 		"description": "Deploying apps on AWS, GCP, and Azure",
 		"event_date": "12.2.2024",
-		"organizer": "org-32"
+		"organizer": "org-32",
+		"participants": []
 	},
 	{
 		"id": "33",
 		"title": "Mobile App Development",
 		"description": "iOS and Android development",
 		"event_date": "13.2.2024",
-		"organizer": "org-33"
+		"organizer": "org-33",
+		"participants": []
 	},
 	{
 		"id": "34",
 		"title": "Cybersecurity Awareness",
 		"description": "Protecting web applications from threats",
 		"event_date": "14.2.2024",
-		"organizer": "org-34"
+		"organizer": "org-34",
+		"participants": []
 	},
 	{
 		"id": "35",
 		"title": "UX Design Sprint",
 		"description": "Creating user-friendly interfaces",
 		"event_date": "15.2.2024",
-		"organizer": "org-35"
+		"organizer": "org-35",
+		"participants": []
 	},
 	{
 		"id": "36",
 		"title": "Database Management",
 		"description": "SQL and NoSQL databases",
 		"event_date": "16.2.2024",
-		"organizer": "org-36"
+		"organizer": "org-36",
+		"participants": []
 	},
 	{
 		"id": "37",
 		"title": "JavaScript Workshop",
 		"description": "Advanced concepts for modern web development",
 		"event_date": "7.3.2024",
-		"organizer": "org-37"
+		"organizer": "org-37",
+		"participants": []
 	},
 	{
 		"id": "38",
 		"title": "Coding Challenge",
 		"description": "Test your skills with fun programming tasks",
 		"event_date":  "5.2.2024",
-		"organizer": "org-38"
+		"organizer": "org-38",
+		"participants": []
 	},
 	{
 		"id": "39",
 		"title": "Tech Talk",
 		"description": "Introduction to Python Programming",
 		"event_date": "7.2.2024",
-		"organizer": "org-39"
+		"organizer": "org-39",
+		"participants": []
 	},
 	{
 		"id": "40",
 		"title": "Web Dev Bootcamp",
 		"description": "Learn HTML, CSS, and JavaScript basics",
 		"event_date": "8.2.2024",
-		"organizer": "org-40"
+		"organizer": "org-40",
+		"participants": []
 	},
 	{
 		"id": "41",
 		"title": "Agile Development Seminar",
 		"description": "Best practices for software teams",
 		"event_date": "9.2.2024",
-		"organizer": "org-41"
+		"organizer": "org-41",
+		"participants": []
 	},
 	{
 		"id": "42",
 		"title": "DevOps Conference",
 		"description": "CI/CD pipelines and containerization",
 		"event_date": "10.2.2024",
-		"organizer": "org-42"
+		"organizer": "org-42",
+		"participants": []
 	},
 	{
 		"id": "43",
 		"title": "Data Science Symposium",
 		"description": "Explore the latest trends in data analysis",
 		"event_date": "11.2.2024",
-		"organizer": "org-43"
+		"organizer": "org-43",
+		"participants": []
 	},
 	{
 		"id": "44",
 		"title": "Cloud Computing Workshop",
 		"description": "Deploying apps on AWS, GCP, and Azure",
 		"event_date": "12.2.2024",
-		"organizer": "org-44"
+		"organizer": "org-44",
+		"participants": []
 	},
 	{
 		"id": "45",
 		"title": "Mobile App Development",
 		"description": "iOS and Android development",
 		"event_date": "13.2.2024",
-		"organizer": "org-45"
+		"organizer": "org-45",
+		"participants": []
 	},
 	{
 		"id": "46",
 		"title": "Cybersecurity Awareness",
 		"description": "Protecting web applications from threats",
 		"event_date": "14.2.2024",
-		"organizer": "org-46"
+		"organizer": "org-46",
+		"participants": []
 	},
 	{
 		"id": "47",
 		"title": "UX Design Sprint",
 		"description": "Creating user-friendly interfaces",
 		"event_date": "15.2.2024",
-		"organizer": "org-47"
+		"organizer": "org-47",
+		"participants": []
 	},
 	{
 		"id": "48",
 		"title": "Database Management",
 		"description": "SQL and NoSQL databases",
 		"event_date": "16.2.2024",
-		"organizer": "org-48"
+		"organizer": "org-48",
+		"participants": []
 	},
 	{
 		"id": "49",
 		"title": "JavaScript Workshop",
 		"description": "Advanced concepts for modern web development",
 		"event_date": "7.3.2024",
-		"organizer": "org-49"
+		"organizer": "org-49",
+		"participants": []
 	},
 	{
 		"id": "50",
 		"title": "Coding Challenge",
 		"description": "Test your skills with fun programming tasks",
 		"event_date":  "5.2.2024",
-		"organizer": "org-50"
+		"organizer": "org-50",
+		"participants": []
 	},
 	{
 		"id": "51",
 		"title": "Tech Talk",
 		"description": "Introduction to Python Programming",
 		"event_date": "6.2.2024",
-		"organizer": "org-51"
+		"organizer": "org-51",
+		"participants": []
 	},
 	{
 		"id": "52",
 		"title": "Web Dev Bootcamp",
 		"description": "Learn HTML, CSS, and JavaScript basics",
 		"event_date": "7.2.2024",
-		"organizer": "org-52"
+		"organizer": "org-52",
+		"participants": []
 	},
 	{
 		"id": "53",
 		"title": "Agile Development Seminar",
 		"description": "Best practices for software teams",
 		"event_date": "8.2.2024",
-		"organizer": "org-53"
+		"organizer": "org-53",
+		"participants": []
 	},
 	{
 		"id": "54",
 		"title": "DevOps Conference",
 		"description": "CI/CD pipelines and containerization",
 		"event_date": "9.2.2024",
-		"organizer": "org-54"
+		"organizer": "org-54",
+		"participants": []
 	},
 	{
 		"id": "55",
 		"title": "Data Science Symposium",
 		"description": "Explore the latest trends in data analysis",
 		"event_date": "10.2.2024",
-		"organizer": "org-55"
+		"organizer": "org-55",
+		"participants": []
 	},
 	{
 		"id": "56",
 		"title": "Cloud Computing Workshop",
 		"description": "Deploying apps on AWS, GCP, and Azure",
 		"event_date": "12.2.2024",
-		"organizer": "org-56"
+		"organizer": "org-56",
+		"participants": []
 	},
 	{
 		"id": "57",
 		"title": "Mobile App Development",
 		"description": "iOS and Android development",
 		"event_date": "13.2.2024",
-		"organizer": "org-57"
+		"organizer": "org-57",
+		"participants": []
 	},
 	{
 		"id": "58",
 		"title": "Cybersecurity Awareness",
 		"description": "Protecting web applications from threats",
 		"event_date": "14.2.2024",
-		"organizer": "org-58"
+		"organizer": "org-58",
+		"participants": []
 	},
 	{
 		"id": "59",
 		"title": "UX Design Sprint",
 		"description": "Creating user-friendly interfaces",
 		"event_date": "15.2.2024",
-		"organizer": "org-59"
+		"organizer": "org-59",
+		"participants": []
 	},
 	{
 		"id": "60",
 		"title": "Database Management",
 		"description": "SQL and NoSQL databases",
 		"event_date": "16.2.2024",
-		"organizer": "org-60"
+		"organizer": "org-60",
+		"participants": []
 	},
 	{
 		"id": "61",
 		"title": "API Development Workshop",
 		"description": "Building RESTful APIs",
 		"event_date": "7.3.2024",
-		"organizer": "org-61"
+		"organizer": "org-61",
+		"participants": []
 	},
 	{
 		"id": "62",
 		"title": "Full-Stack Development",
 		"description": "Learn frontend and backend technologies",
 		"event_date":  "5.2.2024",
-		"organizer": "org-62"
+		"organizer": "org-62",
+		"participants": []
 	},
 	{
 		"id": "63",
 		"title": "Machine Learning Meetup",
 		"description": "Applying ML algorithms to web apps",
 		"event_date": "7.2.2024",
-		"organizer": "org-63"
+		"organizer": "org-63",
+		"participants": []
 	},
 	{
 		"id": "64",
 		"title": "Game Development",
 		"description": "Creating interactive web games",
 		"event_date": "8.2.2024",
-		"organizer": "org-64"
+		"organizer": "org-64",
+		"participants": []
 	},
 	{
 		"id": "65",
 		"title": "Blockchain Symposium",
 		"description": "Exploring blockchain technology in web apps",
 		"event_date": "9.2.2024",
-		"organizer": "org-65"
+		"organizer": "org-65",
+		"participants": []
 	},
 	{
 		"id": "66",
 		"title": "Web Accessibility Workshop",
 		"description": "Designing inclusive web experiences",
 		"event_date": "10.2.2024",
-		"organizer": "org-66"
+		"organizer": "org-66",
+		"participants": []
 	},
 	{
 		"id": "67",
 		"title": "Microservices Architecture",
 		"description": "Building scalable web applications",
 		"event_date": "11.2.2024",
-		"organizer": "org-67"
+		"organizer": "org-67",
+		"participants": []
 	},
 	{
 		"id": "68",
 		"title": "Progressive Web Apps",
 		"description": "Developing high-performance PWAs",
 		"event_date": "12.2.2024",
-		"organizer": "org-68"
+		"organizer": "org-68",
+		"participants": []
 	},
 	{
 		"id": "69",
 		"title": "Software Testing Conference",
 		"description": "Strategies for effective testing",
 		"event_date": "13.2.2024",
-		"organizer": "org-69"
+		"organizer": "org-69",
+		"participants": []
 	},
 	{
 		"id": "70",
 		"title": "DevSecOps Workshop",
 		"description": "Integrating security practices into DevOps",
 		"event_date": "14.2.2024",
-		"organizer": "org-70"
+		"organizer": "org-70",
+		"participants": []
 	},
 	{
 		"id": "71",
 		"title": "Performance Optimization",
 		"description": "Speed up web applications",
 		"event_date": "15.2.2024",
-		"organizer": "org-71"
+		"organizer": "org-71",
+		"participants": []
 	},
 	{
 		"id": "72",
 		"title": "GraphQL Workshop",
 		"description": "Building APIs with GraphQL",
 		"event_date": "16.2.2024",
-		"organizer": "org-72"
+		"organizer": "org-72",
+		"participants": [
+			{
+				"name": "Jacob Jones",
+				"email": "JacobJones@uk.net",
+				"dateOfBirth": "2000",
+				"whereHeard": "social media"
+			},
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "2001",
+				"whereHeard": "found myself"
+			},
+			{
+				"name": "Courtney Robertson",
+				"email": "CourtneyRobertson@posteo.us",
+				"dateOfBirth": "1991",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "73",
 		"title": "JavaScript Workshop",
 		"description": "Advanced concepts for modern web development",
 		"event_date": "7.3.2024",
-		"organizer": "org-1"
+		"organizer": "org-73",
+		"participants": [
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "74",
 		"title": "Coding Challenge",
 		"description": "Test your skills with fun programming tasks",
 		"event_date":  "5.2.2024",
-		"organizer": "org-2"
+		"organizer": "org-74",
+		"participants": [
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "75",
 		"title": "Tech Talk",
 		"description": "Introduction to Python Programming",
 		"event_date": "6.2.2024",
-		"organizer": "org-3"
+		"organizer": "org-75",
+		"participants": [
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "76",
 		"title": "Web Dev Bootcamp",
 		"description": "Learn HTML, CSS, and JavaScript basics",
 		"event_date": "7.2.2024",
-		"organizer": "org-4"
+		"organizer": "org-76",
+		"participants": [
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "1998",
+				"whereHeard": "found myself"
+			}
+		]
 	},
 	{
 		"id": "77",
 		"title": "Agile Development Seminar",
 		"description": "Best practices for software teams",
 		"event_date": "8.2.2024",
-		"organizer": "org-5"
+		"organizer": "org-77",
+		"participants": [
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "1998",
+				"whereHeard": "found myself"
+			}
+		]
 	},
 	{
 		"id": "78",
 		"title": "DevOps Conference",
 		"description": "CI/CD pipelines and containerization",
 		"event_date": "9.2.2024",
-		"organizer": "org-6"
+		"organizer": "org-78",
+		"participants": [
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "1998",
+				"whereHeard": "found myself"
+			},
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "79",
 		"title": "Data Science Symposium",
 		"description": "Explore the latest trends in data analysis",
 		"event_date": "10.2.2024",
-		"organizer": "org-7"
+		"organizer": "org-79",
+		"participants": [
+			{
+				"name": "Dianne Russell",
+				"email": "DianneRussell@uk.net",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "80",
 		"title": "Cloud Computing Workshop",
 		"description": "Deploying apps on AWS, GCP, and Azure",
 		"event_date": "12.2.2024",
-		"organizer": "org-8"
+		"organizer": "org-80",
+		"participants": [
+			{
+				"name": "Leslie Alexander",
+				"email": "LeslieAlexander@uk.net",
+				"dateOfBirth": "1998",
+				"whereHeard": "found myself"
+			},
+			{
+				"name": "Brooklyn Simmons",
+				"email": "BrooklynSimmons@uk.net",
+				"dateOfBirth": "1999",
+				"whereHeard": "friends"
+			}
+		]
 	},
 	{
 		"id": "81",
 		"title": "Mobile App Development",
 		"description": "iOS and Android development",
 		"event_date": "13.2.2024",
-		"organizer": "org-9"
+		"organizer": "org-81",
+		"participants": [
+			{
+				"name": "Dianne Russell",
+				"email": "DianneRussell@uk.net",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "82",
 		"title": "Cybersecurity Awareness",
 		"description": "Protecting web applications from threats",
 		"event_date": "14.2.2024",
-		"organizer": "org-10"
+		"organizer": "org-82",
+		"participants": [
+			{
+				"name": "Dianne Russell",
+				"email": "DianneRussell@uk.net",
+				"dateOfBirth": "2002",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "83",
 		"title": "UX Design Sprint",
 		"description": "Creating user-friendly interfaces",
 		"event_date": "15.2.2024",
-		"organizer": "org-11"
+		"organizer": "org-83",
+		"participants": [
+			{
+				"name": "Darlene Robertson",
+				"email": "DarleneRobertsony@posteo.us",
+				"dateOfBirth": "1997",
+				"whereHeard": "social media"
+			}
+		]
 	},
 	{
 		"id": "84",
-		"title": "Database Management",
-		"description": "SQL and NoSQL databases",
+		"title": "Low-Code Development",
+		"description": "Building web apps without coding",
 		"event_date": "16.2.2024",
-		"organizer": "org-12"
+		"organizer": "org-84",
+		"participants": [
+			{
+				"name": "Robert Fox",
+				"email": "RobertFoxd@posteo.us",
+				"dateOfBirth": "2000",
+				"whereHeard": "social media"
+			},
+			{
+				"name": "Darlene Robertson",
+				"email": "DarleneRobertsony@posteo.us",
+				"dateOfBirth": "1997",
+				"whereHeard": "social media"
+			}
+		]
 	}
 ]
 	

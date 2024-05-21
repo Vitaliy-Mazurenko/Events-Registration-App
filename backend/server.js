@@ -16,10 +16,10 @@ app.get('/api', (req, res)=> {
     res.json({ data: dataBase });
 });
 
-app.post('/add',  (req, res)=> {
+app.post('/registration',  (req, res)=> {
   const receivedData = JSON.stringify(req.body);
   
-  fs.writeFile( './data.json', receivedData, {encoding: 'utf8', flag: 'a'}, (err) => {
+  fs.writeFile( './data.json', receivedData, {encoding: 'utf8', flag: 'w'}, (err) => {
     if( err ) {
       next({message: 'Failed to create file', status: 500})
       return;

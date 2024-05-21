@@ -12,10 +12,18 @@ const Event = ({
  }: childrenProps) => {
 	const navigate = useNavigate();
 
-	const goToRegister = (shop: string | undefined) => {
-		console.log(shop);
-		navigate('/registration');
+	const goToRegister = (id: string | undefined) => {
+		if (id) {
+			navigate(`/registration/${id}`);
+		}
 	};
+
+	const goToParticipants = (id: string | undefined) => {
+		if (id) {
+			navigate(`/participants/${id}`);
+		}
+	};
+
 
 
 
@@ -36,10 +44,11 @@ const Event = ({
 			<div>
 			<span
 			id={item.id}
-			onClick={(e) => goToRegister(item.id)}
+			onClick={() => goToRegister(item.id)}
 			>Register</span>
 			<span
-			id={item.id}			
+			id={item.id}
+			onClick={() => goToParticipants(item.id)}			
 			>View</span>
 
 			</div>

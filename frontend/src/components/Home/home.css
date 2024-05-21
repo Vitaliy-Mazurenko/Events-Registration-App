@@ -1,12 +1,8 @@
-.section {
-  margin: 1% 1%;
-  width: 72%;
-  border: 1px solid grey;
-  border-radius: 5px;
-  max-height: 89vh;
-  overflow-y: auto;
-}
-
 .home-title {
   padding-left: 7px;
+}
+
+.home-events {
+ display: flex;
+ flex-wrap: wrap;
 }

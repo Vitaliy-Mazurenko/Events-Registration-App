@@ -1,8 +1,15 @@
+export interface Iuser {
+	name: string;
+	email: string;
+	dateOfBirth: string;
+	whereHeard: 'social media' | 'friends' | 'found myself' | '',
+};
+
 export default interface IEvent {
-  id: string | undefined;
+  id: string;
 	title: string;
 	description: string;
 	event_date: string;
 	organizer: string;
-  participants: string;
+    participants: Array<Iuser>;
 }

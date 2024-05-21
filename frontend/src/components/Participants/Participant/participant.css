@@ -1,0 +1,23 @@
+.item-participant {
+  border: 1px solid grey;
+  padding: 10px 5px;
+  margin: 5px;
+  max-width: 210px;
+  min-width: 175px;
+  min-height: 85px;
+}
+
+.participant {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.participant > small{
+  font-size:  0.3em;
+  min-height: 30px;
+}
+
+
+
+
