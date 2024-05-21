@@ -9,5 +9,6 @@ Web-based application for events registration.
 
 3. Go to client project folder(frontend), install dependencies and run client: npm run dev
    Now you have a frontend for application. Go to the url: http://localhost:5173/
-   
+
+4. Deploy an application [Events Registration App](http://events.victory.vinnica.ua/).  
 ```
