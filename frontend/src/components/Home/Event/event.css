@@ -2,9 +2,9 @@
   border: 1px solid grey;
   padding: 0 5px;
   margin: 5px;
-  max-width: 180px;
-  min-width: 175px;
-  min-height: 115px;
+  width: 22%;
+  min-width: 185px;
+  min-height: 120px;
 }
 
 .group {
@@ -14,7 +14,7 @@
 }
 
 .group > p{
-  font-size: x-small;
+  font-size: 0.9em;
   min-height: 30px;
 }
 

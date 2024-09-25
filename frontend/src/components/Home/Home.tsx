@@ -24,7 +24,7 @@ export default function Home({
 	const lastPage = Math.ceil(events.length / projectsPerPage);
 	const arrOfPages: (number)[] = [];
 	for(let i = 1; i <= lastPage; i++){
-	  arrOfPages.push(i);
+		arrOfPages.push(i);
 	}
 	
 

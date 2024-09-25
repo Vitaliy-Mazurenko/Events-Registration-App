@@ -3,7 +3,7 @@ export interface Iuser {
 	email: string;
 	dateOfBirth: string;
 	whereHeard: 'social media' | 'friends' | 'found myself' | '',
-};
+}
 
 export default interface IEvent {
   id: string;

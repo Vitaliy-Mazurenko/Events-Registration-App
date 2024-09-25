@@ -58,13 +58,13 @@ export default function Registration({
 		) {
 			alert('Please, fill in all fields');
 		} else {
-			let eventRegistration: Array<IEvent> =  JSON.parse(JSON.stringify(events));
+			const eventRegistration: Array<IEvent> =  JSON.parse(JSON.stringify(events));
 			for(let i = 0; i < events.length; i++) {
 				if(events[i].id === page) {
 					eventRegistration[i].participants.push(user);
-				  break;
+					break;
 				}
-			  }
+			}
 
 			registrationFetch(eventRegistration);
 			updateEvents(eventRegistration);
@@ -122,17 +122,17 @@ export default function Registration({
 						<input type="radio" name='whereHeard' value='social media'
       checked={user.whereHeard == 'social media' ? true : false}
       onChange={handleChange} />
-	  <span className='checkbox-name'>Social media</span>
+		<span className='checkbox-name'>Social media</span>
 
       <input type="radio" name='whereHeard' value='friends'
       checked={user.whereHeard == 'friends' ? true : false}
       onChange={handleChange} />
-	  <span className='checkbox-name'>Friends</span>
+		<span className='checkbox-name'>Friends</span>
 
       <input type="radio" name='whereHeard' value='found myself'
       checked={user.whereHeard == 'found myself' ? true : false}
       onChange={handleChange} />
-	  <span className='checkbox-name'>Found myself</span>
+		<span className='checkbox-name'>Found myself</span>
 						</div>
 						<Button text='Submit' className='btn-submit' />
 					</form>

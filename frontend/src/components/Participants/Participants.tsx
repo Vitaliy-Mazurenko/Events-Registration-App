@@ -15,7 +15,7 @@ export default function Participants({
 
 	const participantsEvent = events.find(
 		(event) => (event.id === page)
-	  );
+		);
 
 	return (
 		<div className='Registration'>
