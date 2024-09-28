@@ -29,3 +29,26 @@
 .checkbox-name {
   padding-right: 7px;
 }
+
+.react-datepicker__input-container input{
+  width: 175px;
+  padding: 0 1px 0 25px;
+  height: 35px;
+  font-family: 'Roboto', sans-serif;
+  background: none;
+  border: 2px solid #DBC7B3;
+  font-size: 1rem;
+  border-radius: 7px;
+}
+
+
+.react-datepicker__input-container .react-datepicker__calendar-icon {
+    padding-left: 0.4rem;
+    padding-top: 0.6rem;
+}
+
+@media (max-width: 800px) { 
+  .react-datepicker__input-container input {
+    width: 125px;
+  }
+}

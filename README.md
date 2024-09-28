@@ -1,6 +1,19 @@
 # Events-Registration-App
 Web-based application for events registration.
 
+## Main stack
+
+- **Frontend**: React + TypeScript + Vite
+- **Backend**: Express.js, MongoDB (Atlas)
+
+```
+Level of accomplished tasks:
+ Base level + Middle level:
+ - Event registration page:
+ - add form validation (come up with your own requirements for fields’ validity);
+ - add DataPicker to Date of birth input;
+```
+
 ```
 1. Clone repo with github:  git clone https://github.com/Vitaliy-Mazurenko/Events-Registration-App.git
 

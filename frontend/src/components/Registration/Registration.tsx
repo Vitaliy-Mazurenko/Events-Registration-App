@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import './registration.css';
 import Input from '../../common/Input/Input';
 import Button from '../../common/Button/Button';
 import type IEvent from './../../types/initData';
 import type { Iuser } from './../../types/initData';
-import { useState } from 'react';
+
 
 interface childrenProps {
 	events: Array<IEvent>,
@@ -18,10 +21,11 @@ export default function Registration({
 	const page = params.id;
 	const navigate = useNavigate();
 
+	const [startDate, setStartDate] = useState(new Date());
 	const [user, setUser] = useState<Iuser>({
 		name: '',
 		email: '',
-		dateOfBirth: '',
+		dateOfBirth: startDate.toISOString(),
 		whereHeard: '',
 	});
 
@@ -29,6 +33,7 @@ export default function Registration({
 		const { value } = e.target;
 		setUser({
 			...user,
+			dateOfBirth: startDate.toISOString(),
 			[e.target.name]: value,
 		});
 	};
@@ -54,10 +59,13 @@ export default function Registration({
 
 		e.preventDefault();
 		if (
+			!user.whereHeard
+		) {
+			alert('Please, fill: Where did you hear about this event?');
+		} else if (
 			!user.name ||
 			!user.email ||
-			!user.dateOfBirth ||
-			!user.whereHeard
+			!user.dateOfBirth
 		) {
 			alert('Please, fill in all fields');
 		} else {
@@ -112,13 +120,7 @@ export default function Registration({
 						</label>
 						<label htmlFor='dateOfBirth'>
 							<div>Date of birth:</div>
-							<Input
-								required
-								type='dateOfBirth'
-								name='dateOfBirth'
-								placeholder='Enter date of birth'
-								onChange={handleChange}
-							/>
+							<DatePicker showIcon selected={startDate} onChange={(date) => date && setStartDate(date)} />
 						</label>
 							<div className='checkbox-label'>Where did you hear about this event?</div>
 						<div className='checkbox'>

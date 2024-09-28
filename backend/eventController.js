@@ -4,7 +4,7 @@ import HttpError from "./utils/HttpError.js";
 import { Events } from "./models/Events.js";
 
 const getAllEvents = async (req, res) => {
-  //   Events.create([]) 
+
   Events.find()
       .then(events => res.send(events))
       .catch(err => res.send(err));

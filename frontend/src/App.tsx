@@ -16,7 +16,6 @@ console.log(events);
   useEffect(() => {
 		fetch('http://localhost:4000/api/')
 		.then((res) => res.json())
-		// .then((result) => console.log(result))
 		.then((result) => setEvents(result));
 	}, []);
 
