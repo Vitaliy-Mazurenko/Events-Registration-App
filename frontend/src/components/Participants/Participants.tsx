@@ -24,7 +24,7 @@ export default function Participants({
 					<Link to='/'>back</Link>
 				</p>
 				<h3 className='home-title'>"Awesome Event" participants</h3>
-			<ul className='home-events'>
+			<ul className='home-participants'>
 			{(!!participantsEvent && typeof participantsEvent !== 'undefined') && participantsEvent.participants.map((item, i) =>
 				<Participant item={item} key={i} />
 			)}

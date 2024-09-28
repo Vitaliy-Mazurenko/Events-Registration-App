@@ -33,10 +33,13 @@ export default function Registration({
 		});
 	};
 
-	const registrationFetch = async (eventRegistration: Array<IEvent>, URL = 'http://localhost:4000/registration') => {
-		return await fetch(`${URL}`, {
-			method: 'POST',
-			body: JSON.stringify(eventRegistration),
+	const registrationFetch = async (eventRegistration: Iuser[], eventId: string | undefined) => {
+		console.log(eventRegistration);
+		return await fetch(`http://localhost:4000/registration/${eventId}/`, {
+			method: 'PATCH',
+			body: JSON.stringify({
+				participants: eventRegistration
+			}),
 			headers: {
 				'Accept': 'application/json',
 				'Content-Type': 'application/json',
@@ -62,11 +65,11 @@ export default function Registration({
 			for(let i = 0; i < events.length; i++) {
 				if(events[i].id === page) {
 					eventRegistration[i].participants.push(user);
+					registrationFetch(eventRegistration[i].participants, events[i].id);
 					break;
 				}
 			}
 
-			registrationFetch(eventRegistration);
 			updateEvents(eventRegistration);
 			
 			setUser({

@@ -25,20 +25,16 @@ const Event = ({
 	};
 
 
-
-
 	return (
 		<li className='item'>
 		<div className='group'>
 			<h5>{item.title}</h5>
 			<p>{item.description}</p>
 			<div>
-			<small
-			id={item.id}
-			>{item.event_date}</small>
-			<small
-			id={item.id}			
-			>{item.organizer}</small>
+			<small>
+			{item.event_date}</small>
+			<small>			
+			{item.organizer}</small>
 
 			</div>
 			<div>

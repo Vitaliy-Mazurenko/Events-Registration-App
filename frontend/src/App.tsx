@@ -8,7 +8,7 @@ import './App.css'
 
 function App() {
   const [events, setEvents] = useState<Array<IEvent>>([]);
-
+console.log(events);
   const updateEvents = (newEvents: Array<IEvent>) => {
 	setEvents(newEvents);
 };
@@ -16,7 +16,8 @@ function App() {
   useEffect(() => {
 		fetch('http://localhost:4000/api/')
 		.then((res) => res.json())
-		.then((result) => setEvents(result.data));
+		// .then((result) => console.log(result))
+		.then((result) => setEvents(result));
 	}, []);
 
   return (

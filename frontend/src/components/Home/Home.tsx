@@ -17,11 +17,12 @@ export default function Home({
 	const [projectsPerPage] = useState<number>(12);
 	const lastProjectIndex = currentPage * projectsPerPage;
 	const firstProjectIndex = lastProjectIndex - projectsPerPage;
-	const currentEvents = events.slice(firstProjectIndex, lastProjectIndex);
+
+	const currentEvents = events ? events.slice(firstProjectIndex, lastProjectIndex) : null;
 
 	const paginate = (pageNumbers:number) => setCurrentPage(pageNumbers);
 
-	const lastPage = Math.ceil(events.length / projectsPerPage);
+	const lastPage = events ? Math.ceil(events.length / projectsPerPage) : 0;
 	const arrOfPages: (number)[] = [];
 	for(let i = 1; i <= lastPage; i++){
 		arrOfPages.push(i);

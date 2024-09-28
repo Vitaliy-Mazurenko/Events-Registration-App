@@ -6,7 +6,8 @@ export interface Iuser {
 }
 
 export default interface IEvent {
-  id: string;
+	id: string;
+	_id?: string;
 	title: string;
 	description: string;
 	event_date: string;
