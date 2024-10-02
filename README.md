@@ -2,7 +2,7 @@
 Web-based application for events registration.
 
 **Objective**:
-- **Events board page**: implement the events board page where users can observe the
+**Events board page**: implement the events board page where users can observe the
 paginated list of available events. List of events can be pre-populated in the database
 manually or via seed script. Event should consist of:
 - title;
@@ -10,7 +10,7 @@ manually or via seed script. Event should consist of:
 - event date;
 - organizer.
 
-- **Event registration page**: by clicking on “Register”, users should be redirected to the
+**Event registration page**: by clicking on “Register”, users should be redirected to the
 event registration page, which contains a registration form with the following fields: full
 name, email, date of birth, “where did you hear about this event?”.
 Once the form is submitted, the response should be stored in a database.
@@ -30,7 +30,7 @@ button.
 
    ```bash
    git clone https://github.com/Vitaliy-Mazurenko/Events-Registration-App.git
-   cd chat/backend
+   cd ../backend
 
    ```
 
